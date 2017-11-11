@@ -1,6 +1,11 @@
 def get_days(year, month)
     # ここに処理を書き加えてください
+if year%4==0 && year%100==0 && year%400 != 0 && month ==2
+	days =28
 
+else 
+  days =31
+end
 
   end
 
